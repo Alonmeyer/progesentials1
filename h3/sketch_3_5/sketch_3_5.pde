@@ -11,3 +11,10 @@
   fill(0);
   ellipse(240, 250, 20, 20);
   ellipse(360, 250, 20, 20);
+
+  noFill();
+  strokeWeight(4);
+
+  arc(300, 370, 120, 80, 0, PI);
+  arc(300, 310, 40, 60, PI, TWO_PI);
+  arc(300, 200, 180, 80, PI, TWO_PI);
